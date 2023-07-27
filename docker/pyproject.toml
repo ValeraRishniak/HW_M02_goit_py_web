@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-web-hw2-docker"
+version = "0.1.0"
+description = ""
+authors = ["Valerii Rishniak"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "python_web_hw2_docker"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
